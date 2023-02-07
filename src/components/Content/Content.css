@@ -1,0 +1,37 @@
+.media {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding: 5px;
+  margin: 5px 0;
+  background-color: #a82d1c;
+  position: relative;
+}
+
+.media:hover {
+  background-color: white;
+  color: black;
+}
+
+@media (max-width: 550px) {
+  .media {
+    width: 100%;
+  }
+}
+
+.poster {
+  display: flex;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.subTitle {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
